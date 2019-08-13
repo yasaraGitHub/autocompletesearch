@@ -1,6 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
+  <!--*********Start of code for data passing between parent to child********-->
+  <app-child-componenet [parentData]="name"></app-child-componenet>
+  <!--//*********End of code for data passing between parent to child********-->
     Welcome to {{ title }}
   </h1>
   <form action="">
@@ -17,6 +20,7 @@
 
     </mat-form-field>
   </form>
+  
 </div>
 
 

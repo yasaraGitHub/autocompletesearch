@@ -7,10 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatFormFieldModule,MatInputModule,MatAutocompleteModule } from '@angular/material';
 import { FormsModule ,ReactiveFormsModule} from '@angular/forms';
+import { ChildComponenetComponent } from './child-componenet/child-componenet.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChildComponenetComponent
   ],
   imports: [
     BrowserModule,

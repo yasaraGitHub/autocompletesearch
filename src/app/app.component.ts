@@ -9,6 +9,11 @@ import {map, startWith} from 'rxjs/operators';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  //*********Start of code for data passing between parent to child********
+  public name="Yasara";
+  //*********End of code for data passing between parent to child********
+
   title = 'SearchAutoComplete';
 
  // options: string[]=['Angular','React','Node'];
